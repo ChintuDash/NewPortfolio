@@ -72,7 +72,7 @@ const resumeImage = `${import.meta.env.BASE_URL}resume/resume.jpg`;
                         <a href={resumeImage} target="_blank" rel="noopener noreferrer" onMouseOver={()=> speakcon("read resume")} className="btn w-100 text-start read"><FaBookReader size={50} className='icon'/>&nbsp;&nbsp;&nbsp; Read Resume</a>
                     </div>
                     <div className="col-lg-4 pt-4">
-                        <a href="/resume/Chintu_Dash_Resume.pdf" target="_blank" rel="noopener noreferrer" download className="btn w-100 text-start downlode" onMouseOver={()=> speakcon("downlode resume")} onClick={handleClick}><FaDownload size={50} className='icon'/> &nbsp;&nbsp;&nbsp; Downlode Resume</a>
+                        <a href={`${import.meta.env.BASE_URL}resume/Chintu_Dash_Resume.pdf`} target="_blank" rel="noopener noreferrer" download className="btn w-100 text-start downlode" onMouseOver={()=> speakcon("downlode resume")} onClick={handleClick}><FaDownload size={50} className='icon'/> &nbsp;&nbsp;&nbsp; Downlode Resume</a>
                     </div>
                 </div>
             </div>

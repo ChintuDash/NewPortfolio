@@ -31,13 +31,13 @@ const Contact = () =>{
   }
 
 //   Resume
-const resumeImage = "/resume/resume.jpg";
+const resumeImage = `${import.meta.env.BASE_URL}resume/resume.jpg`;
 
 // downlode resume
    const handleClick = (e) => {
     e.preventDefault();
     if (window.confirm("Do you really want to download the resume?")) {
-      window.location.href = "/resume/Chintu_Dash_Resume.pdf"; 
+      window.location.href = `${import.meta.env.BASE_URL}resume/Chintu_Dash_Resume.pdf`;
     }
   };
 

@@ -43,7 +43,7 @@ const Tools = ()=>{
                                 <FaReact class="tool react" title="React" onMouseEnter={()=>autospeak("react")}/>
                                 <FaBootstrap class="tool bootstrap" title="BootStrap" onMouseEnter={()=>autospeak("bootstrap")}/>
                                 <SiJquery class="tool jquery" title="JQuery" onMouseEnter={()=>autospeak("jquery")}/>
-                                <img src="/images/gsap.png" className="tool gsap img-fluid" title="Gsap" alt=""  onMouseEnter={()=>autospeak("g sap")}/>
+                                <img src={`${import.meta.env.BASE_URL}images/gsap.png`} className="tool gsap img-fluid" title="Gsap" alt=""  onMouseEnter={()=>autospeak("g sap")}/>
                             </div>
                         </div>
                     </div>
@@ -66,7 +66,7 @@ const Tools = ()=>{
                                 <FaGitAlt class="tool git" title="GIT" onMouseEnter={()=>autospeak("git")}/>
                                 <FaGithub class="tool github" title="GitHub" onMouseEnter={()=>autospeak("github")}/>
                                 <VscVscode class="tool vscode" title="VS Code" onMouseEnter={()=>autospeak("vs code")}/>
-                                 <img src="/images/ajax.png" className="tool ajax img-fluid" title="AJAX" alt=""  onMouseEnter={()=>autospeak("ajax")}/>
+                                 <img src={`${import.meta.env.BASE_URL}images/ajax.png`} className="tool ajax img-fluid" title="AJAX" alt=""  onMouseEnter={()=>autospeak("ajax")}/>
                             </div>
                         </div>
                     </div>

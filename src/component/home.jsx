@@ -31,7 +31,7 @@ const Home = ()=>{
                 <div className="col-lg-5">
                     <div className="profile-img-box">
                         <div className="profile-img">
-                             <img src="/images/profile.jpg" alt="" className="img-fluid"/>
+                             <img src={`${import.meta.env.BASE_URL}images/profile.jpg`} alt="" className="img-fluid"/>
                         </div>
                     </div>
                 </div>

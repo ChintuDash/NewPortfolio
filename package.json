@@ -1,6 +1,6 @@
 {
-  "homepage": "https://ChintuDash.github.io/NewPortfolio",
   "name": "portfolio_app",
+  "homepage": "https://ChintuDash.github.io/NewPortfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
